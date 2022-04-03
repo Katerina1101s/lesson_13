@@ -1,0 +1,747 @@
+@import url(null.css);
+
+.wrapper {
+}
+.header {
+}
+.body {
+   background: rgb(173,223,220);
+background: linear-gradient(0deg, rgba(173,223,220,1) 12%, rgba(90,202,210,1) 60%);
+}
+.body__conttainer {
+   max-width: 1000px;
+   margin: 0 auto;
+   position: relative;
+   
+}
+.div-0 {
+   background: rgb(232,237,105);
+   background: linear-gradient(0deg, rgba(232,237,105,1) 70%, rgba(90,202,210,1) 95%);
+   width: 1519px;
+   height: 412px;
+   position: absolute;
+   top: 300px;
+   left: -300px;
+
+}
+.div-1 {
+   background-color: blue;
+   width: 200px;
+   height: 100px;
+   position: absolute;
+   top: 300px;
+   border-radius: 30px 0px 0px 0px;
+   border-top: 10px solid rgb(62, 133, 240);
+   
+}
+.div-2 {
+   background-color: blue;
+   width: 200px;
+   height: 300px;
+   position: absolute;
+   top: 100px;
+   left: 200px;
+   border-radius: 30px 10px 0px 0px;
+   border-top: 10px solid rgb(62, 133, 240);
+}
+.div-3 {
+   background: rgb(145,205,210);
+   background: linear-gradient(90deg, rgba(145,205,210,1) 0%, rgba(206,237,242,1) 11%, rgba(100,224,227,1) 100%);;
+   width: 80px;
+   height: 100px;
+   position: absolute;
+   top: 160px;
+   left: 200px;
+   border-radius: 5px 30px 30px 10px ;
+   border: 1px solid black;
+   border-left: none;
+}
+.div-4 {
+   background: rgb(111,6,14);
+background: linear-gradient(90deg, rgba(111,6,14,1) 0%, rgba(237,106,109,1) 33%, rgba(116,4,4,1) 100%);
+   width: 20px;
+   height: 110px;
+   position: absolute;
+   top: 190px;
+   left: 100px;
+   border-radius: 10px 10px 0px 0px;
+   border: 1px solid black;
+}
+.div-5 {
+   background: rgb(164,148,91);
+background: linear-gradient(90deg, rgba(164,148,91,1) 0%, rgba(241,247,97,1) 33%, rgba(162,141,76,1) 100%);
+   width: 20px;
+   height: 50px;
+   position: absolute;
+   top: 220px;
+   left: 100px;
+   border: 1px solid black;
+}
+.div-6 {
+   background-color: grey;
+   box-shadow: inset 1px -1px 5px black;
+   width: 20px;
+   height: 20px;
+   border-radius: 50%;
+   position: absolute;
+   top: 140px;
+   left: 130px;
+}
+.div-6:hover{
+   box-shadow: 0px 1px 50px 10px grey;
+}
+.div-7 {
+   background-color: grey;
+   box-shadow: inset 1px -1px 5px black;
+   width: 40px;
+   height: 40px;
+   border-radius: 50%;
+   position: absolute;
+   top: 50px;
+   left: 150px;
+}
+.div-7:hover{
+   box-shadow: 0px 1px 50px 10px grey;
+}
+.div-8 {
+   background-color: grey;
+   box-shadow: inset 1px -1px 5px black;
+   width: 60px;
+   height: 60px;
+   border-radius: 50%;
+   position: absolute;
+   top: -60px;
+   left: 230px;
+}
+.div-8:hover{
+   box-shadow: 0px 1px 50px 10px grey;
+}
+.div-9 {
+   background-color: blanchedalmond;
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+   position: absolute;
+   top: 330px;
+   left: -20px;
+}
+.div-9:hover{
+   border-radius: 50%;
+   box-shadow: 0px 1px 50px 10px white;
+   background-color: white;
+}
+
+.div-10 {
+   background-color: black;
+   width: 150px;
+   height: 150px;
+   border-radius: 50%;
+   position: absolute;
+   top: 350px;
+   box-shadow: inset 1px 1px 1px 10px rgb(46, 43, 43);
+}
+.div-10::after{
+   content: "";
+   display: block;
+   background-color: rgb(92, 84, 70);
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+   position: absolute;
+   top: 50px;
+   left: 50px;
+   box-shadow: inset 1px 1px 1px 10px rgb(46, 43, 43);
+}
+
+
+.div-11 {
+   background-color: black;
+   width: 200px;
+   height: 200px;
+   border-radius: 50%;
+   position: absolute;
+   top: 310px;
+   left: 250px;
+   box-shadow: inset 1px 1px 1px 10px rgb(46, 43, 43);
+}
+.div-11::after{
+   content: "";
+   display: block;
+   background-color: rgb(92, 84, 70);
+   width: 100px;
+   height: 100px;
+   border-radius: 50%;
+   position: absolute;
+   top: 50px;
+   left: 50px;
+   box-shadow: inset 1px 1px 1px 10px rgb(46, 43, 43);
+}
+
+.div-12{
+   width: 20px;
+   height: 50px;
+   background-color: rgb(56, 56, 39);
+   position: absolute;
+   top: 50px;
+   left: 360px;
+}
+
+.div-13{
+   width: 100px;
+   height: 30px;
+   background-color: rgb(7, 155, 241);
+   position: absolute;
+   top: 0px;
+   left: 360px;
+}
+
+.div-14{
+   width: 100px;
+   height: 30px;
+   background-color: yellow;
+   position: absolute;
+   top: 30px;
+   left: 360px;
+}
+
+.div-15{
+   background-color: green;
+   width: 400px;
+   height: 200px;
+   position: absolute;
+   top: 200px;
+   left: 700px;
+   border-radius: 50px 50px 10px 10px ;
+   border: 10px solid black;
+}
+
+.div-16{
+   background-color: green;
+   width: 150px;
+   height: 100px;
+   position: absolute;
+   top: 300px;
+   left: 645px;
+   border: 10px solid black;
+   border-right: none;
+   transform: skew(50deg);
+}
+
+.div-17{
+   background-color: blanchedalmond;
+   width: 70px;
+   height: 20px;
+   border-radius: 20px;
+   position: absolute;
+   top: 250px;
+   left: 740px;
+}
+
+.div-18{
+   background-color: blanchedalmond;
+   width: 70px;
+   height: 20px;
+   border-radius: 20px;
+   position: absolute;
+   top: 250px;
+   left: 860px;
+}
+
+.div-19{
+   background-color: blanchedalmond;
+   width: 70px;
+   height: 20px;
+   border-radius: 20px;
+   position: absolute;
+   top: 250px;
+   left: 980px;
+   /* border: 1px solid black; */
+}
+
+.div-20{
+   background-color: rgb(19, 49, 16);
+   width: 100px;
+   height: 100px;
+   border-radius: 50%;
+   position: absolute;
+   top: 350px;
+   left: 700px;
+   box-shadow: inset 1px 1px 1px 10px black;
+   border: 20px dashed rgb(62, 70, 62);
+}
+.div-22{
+   background-color: rgb(19, 49, 16);
+   width: 100px;
+   height: 100px;
+   border-radius: 50%;
+   position: absolute;
+   top: 350px;
+   left: 850px;
+   box-shadow: inset 1px 1px 1px 10px black;
+   border: 20px dashed rgb(62, 70, 62);
+}
+
+.div-23{
+   background-color: rgb(19, 49, 16);
+   width: 100px;
+   height: 100px;
+   border-radius: 50%;
+   position: absolute;
+   top: 350px;
+   left: 1000px;
+   box-shadow: inset 1px 1px 1px 10px black;
+   border: 20px dashed rgb(62, 70, 62);
+}
+
+.div-24{
+   background-color: black;
+   width: 150px;
+   height: 70px;
+   position: absolute;
+   top: 130px;
+   left: 750px;
+   border-radius: 20px 20px 0px 0px;
+}
+
+.div-25{
+   background-color: black;
+   width: 200px;
+   height: 20px;
+   position: absolute;
+   top: 200px;
+   left: 590px;
+   border-radius: 20px;
+   transform: rotate(-30deg);
+}
+
+.div-26{
+   background-color: green;
+   width: 140px;
+   height: 30px;
+   position: absolute;
+   top: 170px;
+   left: 910px;
+   border-radius: 20px 20px 0px 0px;
+   border: 5px solid black;
+   border-bottom: none;
+}
+
+.div-27{
+   background-color: black;
+   width: 200px;
+   height: 10px;
+   position: absolute;
+   top: 300px;
+   left: 400px;
+}
+
+.div-28{
+   width: 100px;
+   height: 20px;
+   background-color: white;
+   position: absolute;
+   top: 550px;
+   left: 1000px;
+}
+.div-29{
+   width: 100px;
+   height: 20px;
+   background-color: blue;
+   position: absolute;
+   top: 570px;
+   left: 1000px;
+}
+.div-30{
+   width: 100px;
+   height: 20px;
+   background-color: red;
+   position: absolute;
+   top: 590px;
+   left: 1000px;
+}
+.div-31{
+   background-color: rgb(146, 107, 24);
+   width: 50px;
+   height: 13px;
+   position: absolute;
+   top: 570px;
+   left: 1000px;
+   border-radius: 10px 10px 0px 0px;
+}
+.div-32{
+   background-color: rgb(146, 107, 24);
+   width: 30px;
+   height: 10px;
+   position: absolute;
+   top: 560px;
+   left: 1010px;
+   border-radius: 10px 10px 0px 0px;
+}
+
+.div-33{
+   background-color: rgb(146, 107, 24);
+   width: 10px;
+   height: 10px;
+   position: absolute;
+   top: 550px;
+   left: 1020px;
+   border-radius: 10px 10px 0px 0px;
+}
+
+.div-34{
+   background-color: black;
+   width: 5px;
+   height: 5px;
+   position: absolute;
+   top: 530px;
+   left: 1026px;
+}
+
+.div-35{
+   background-color: black;
+   width: 5px;
+   height: 5px;
+   position: absolute;
+   top: 420px;
+   left: 1010px;
+}
+
+.div-36{
+   background-color: black;
+   width: 5px;
+   height: 5px;
+   position: absolute;
+   top: 430px;
+   left: 1050px;
+}
+
+.div-37{
+   background-color: black;
+   width: 5px;
+   height: 5px;
+   position: absolute;
+   top: 510px;
+   left: 1015px;
+}
+
+.div-38{
+   background-color: black;
+   width: 5px;
+   height: 5px;
+   position: absolute;
+   top: 440px;
+   left: 995px;
+}
+
+.div-39{
+   background-color: black;
+   width: 5px;
+   height: 5px;
+   position: absolute;
+   top: 540px;
+   left: 990px;
+}
+
+.div-40{
+   background-color: black;
+   width: 5px;
+   height: 5px;
+   position: absolute;
+   top: 540px;
+   left: 1050px;
+}
+
+.div-41{
+   background-color: rgb(158, 119, 91);
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+   position: absolute;
+   top: 600px;
+   left: 860px;
+}
+
+.div-42{
+   background-color: green;
+   width: 50px;
+   height: 40px;
+   border-radius: 0px 0px 50px 50px;
+   transform: rotate(-50deg);
+   position: absolute;
+   top: 622px;
+   left: 880px;
+}
+
+.div-43{
+   background-color: black;
+   width: 10px;
+   height: 2px;
+   position: absolute;
+   top: 627px;
+   left: 873px;
+}
+.div-44{
+   background-color: black;
+   width: 2px;
+   height: 10px;
+   position: absolute;
+   top: 623px;
+   left: 877px;
+}
+
+.div-45{
+   background-color: black;
+   width: 10px;
+   height: 2px;
+   position: absolute;
+   top: 614px;
+   left: 888px;
+}
+.div-46{
+   background-color: black;
+   width: 2px;
+   height: 10px;
+   position: absolute;
+   top: 610px;
+   left: 892px;
+}
+
+.div-48{
+   background-color: rgb(158, 119, 91);
+   width: 100px;
+   height: 5px;
+   position: absolute;
+   top: 590px;
+   left: 800px;
+   transform: rotate(45deg);
+}
+.div-49{
+   background-color: green;
+   width: 90px;
+   height: 40px;
+   position: absolute;
+   top: 540px;
+   left: 770px;
+   transform: rotate(45deg);
+}
+
+.div-50{
+   background-color: rgb(158, 119, 91);
+   width: 50px;
+   height: 5px;
+   position: absolute;
+   top: 550px;
+   left: 835px;
+}
+
+.div-51{
+   background-color: rgb(158, 119, 91);
+   width: 5px;
+   height: 50px;
+   position: absolute;
+   top: 570px;
+   left: 800px;
+}
+
+.div-52{
+   background-color: rgb(158, 119, 91);
+   width: 5px;
+   height: 40px;
+   position: absolute;
+   top: 480px;
+   left: 790px;
+}
+
+.div-53{
+   background-color: rgb(158, 119, 91);
+   width: 5px;
+   height: 50px;
+   position: absolute;
+   top: 490px;
+   left: 770px;
+}
+
+.div-55{
+   width: 6px;
+   height: 2px;
+   background-color: white;
+   position: absolute;
+   top: 590px;
+   left: 830px;
+}
+.div-56{
+   width: 6px;
+   height: 2px;
+   background-color: blue;
+   position: absolute;
+   top: 593px;
+   left: 830px;
+}
+.div-57{
+   width: 6px;
+   height: 2px;
+   background-color: red;
+   position: absolute;
+   top: 595px;
+   left: 830px;
+}
+
+.animation{
+   position: relative;
+   animation-name: animation;
+   animation-duration: 5s;
+   animation-delay: 5s;
+   animation-timing-function: cubic-bezier(0.68,-0.55,0.265,1.55);
+}
+@keyframes animation {
+   0%{
+      transform: translate(0px, 0px);
+   }
+   100%{
+      transform: translate(-1300px, 0px);
+   }
+}
+
+.div-34, .div-37, .div-39, .div-40{
+   animation-name: fly;
+   animation-duration: 1s;
+   animation-direction: alternate-reverse;
+   animation-iteration-count: infinite;
+}
+@keyframes fly {
+   0%{
+      transform: translate(0px, 0px);
+   }
+   40%{
+      transform: translate(5px, 5px);
+   }
+   70%{
+      transform: translate(10px, 0px);
+   }
+   100%{
+      transform: translate(10px, -10px);
+   }
+}
+.div-35, .div-36, .div-38 {
+   position: relative;
+   top: 130px;
+   animation-name: flies;
+   animation-duration: 1s;
+   animation-direction: alternate-reverse;
+   animation-iteration-count: infinite;
+   z-index: 100;
+}
+@keyframes flies {
+   0%{
+      transform: translate(0px, 0px);
+   }
+   100% {
+      transform: translate(0px, -10px);
+   }
+}
+
+.div-6{
+   position: relative;
+   animation-name: shadow-1;
+   animation-duration: 2s;
+   animation-direction: alternate-reverse;
+   animation-iteration-count: 2;
+   animation-delay: 0s;
+}
+@keyframes shadow-1 {
+   0%{
+      transform: scale(1);
+   }
+   100% {
+      transform: scale(2);
+   }
+}
+.div-7{
+   position: relative;
+   animation-name: shadow-2;
+   animation-duration: 2.2s;
+   animation-direction: alternate-reverse;
+   animation-iteration-count: 2;
+   animation-delay: 0.2s;
+}
+@keyframes shadow-2 {
+   0%{
+      transform: scale(1);
+   }
+   100% {
+      transform: scale(2);
+   }
+}
+.div-8{
+   position: relative;
+   animation-name: shadow-3;
+   animation-duration: 2.2s;
+   animation-direction: alternate-reverse;
+   animation-iteration-count: 2;
+   animation-delay: 0.4s;
+}
+@keyframes shadow-3 {
+   0%{
+      transform: scale(1);
+   }
+   100% {
+      transform: scale(2);
+   }
+}
+
+.div-20{
+   position: relative;
+   top: 250px;
+   animation: wheel-1;
+   animation-duration: 5s;
+   animation-delay: 5s;
+}
+.div-22{
+   position: relative;
+   top: 150px;
+   animation: wheel-1;
+   animation-duration: 5s;
+   animation-delay: 5s;
+}
+.div-23{
+   position: relative;
+   top: 50px;
+   animation: wheel-1;
+   animation-duration: 5s;
+   animation-delay: 5s;
+}
+@keyframes wheel-1 {
+   0%{
+      transform: rotate(0deg);
+   }
+   100%{
+      transform: rotate(-360deg);
+   }
+}
+
+.div-58{
+   font-size: 80px;
+   font-weight: 900;
+   color: black;
+   text-align: center;
+   font-family: 'Helvetica';
+   position: relative;
+   top: -200px;
+   left: 0px;
+   z-index: 100;
+   opacity: 0;
+   animation-duration: 2s;
+   animation-delay: 8s;
+   animation-name: name;
+}
+@keyframes name {
+   0%{
+      opacity: 0;
+   }
+   90%{
+      opacity: 1;
+   }
+   100%{
+      opacity: 0;
+   }
+}
